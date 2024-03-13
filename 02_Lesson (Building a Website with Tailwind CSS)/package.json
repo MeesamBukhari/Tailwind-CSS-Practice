@@ -1,0 +1,16 @@
+{
+  "name": "02-lesson_building-tailwindcss-website",
+  "version": "1.0.0",
+  "description": "This contains the code for the second lesson of the Building a Website with Tailwind CSS.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css -- watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "Meesam Bukhari",
+  "devDependencies": {
+    "license": "ISC",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
+}
