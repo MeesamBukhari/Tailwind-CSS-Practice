@@ -1,0 +1,13 @@
+{
+  "name": "01-lesson_intro-and-basics",
+  "version": "1.0.0",
+  "description": "This contains a basic setup for tailwindcss. Also, I created a bull-eye using HTML and Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "author": "Meesam Bukhari",
+  "license": "MIT",
+  "devDependencies": {},
+  "keywords": []
+}
