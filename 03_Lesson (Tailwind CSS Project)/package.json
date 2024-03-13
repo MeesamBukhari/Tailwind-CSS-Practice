@@ -1,0 +1,16 @@
+{
+  "name": "03-lesson-tailwindcss-project",
+  "version": "1.0.0",
+  "description": "This contains the code for the third lesson of the Tailwind CSS Project.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css -- watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "Meesam Bukhari",
+  "devDependencies": {
+    "license": "ISC",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
+}
