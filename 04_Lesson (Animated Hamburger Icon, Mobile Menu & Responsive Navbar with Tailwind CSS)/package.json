@@ -1,0 +1,19 @@
+{
+  "name": "04-lesson-animated-hamburger-icon--mobile-menu--and--responsive-navbar-with-tailwindcss",
+  "version": "1.0.0",
+  "description": "This contains the code for the fourth lesson of the Tailwind CSS Project.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css -- watch",
+    "prettier": "npx prettier --write ./build/*.html"
+  },
+  "keywords": [],
+  "author": "Meesam Bukhari",
+  "devDependencies": {
+    "license": "ISC",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.9"
+  }
+}
